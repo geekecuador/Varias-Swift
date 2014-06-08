@@ -7,6 +7,26 @@
 //
 
 import Foundation
+//Imprime por consola
+ println("Bienvenido a Swift")
+//Declaracion de variables
+var int = 3
+var double = 3.4
+var string = "Esto es una cadena"
+var boolean = true
+ println(int)
+ println(double)
+ println(string)
+ println(boolean)
+ boolean = false
+if boolean==true{
+    println("Es verdadero")
+    
+    
+}
+else if boolean==false{
+    println("Es falso")
+}
 
-println("Hello, World!")
-
+var numero = String(double)
+    println(numero+" es un numero")
